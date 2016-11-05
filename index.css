@@ -14,7 +14,9 @@ body {
 	display:block;
 	margin: 15% 25% 4%;
 }
-
+p {
+	text-align: center;
+}
 .navbar .nav_item {
 	list-style-type: none;
 	padding: 5px;
@@ -67,6 +69,11 @@ display: inline;
 
 .navbar  {
 	width: 360px;
+	padding: 0;
+	margin: 0 auto;
+}
+.contacts {
+	width: 200px;
 	padding: 0;
 	margin: 0 auto;
 }
