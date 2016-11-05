@@ -1,10 +1,12 @@
-body { 
+body {
 	margin: 0;
-    background: url("materials/background_small.png") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
+	background: url("materials/background_small.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/* width: inherit; */
+	border: 1px solid #000;
 }
 
 .logo {
@@ -13,10 +15,12 @@ body {
 	margin: 15% 25% 4%;
 }
 
-.nav_item {
+.navbar .nav_item {
 	list-style-type: none;
-	padding:0.5em;
-	margin: 0.5em;
+	padding: 5px;
+	margin: 5% auto;
+	/* width: 80%; */
+	text-align: center;
 }
 .navbar .nav_item a{
 	text-decoration: none;
@@ -31,6 +35,17 @@ body {
 }
 .contacts .nav_item {
 
+list-style-type: none;
+
+/* padding: 0.5em; */
+
+margin: 12px;
+
+width: 100px;
+
+display: inline;
+
+/* margin: 5% auto; */
 }
 .contacts .nav_item img {
 	height: 2em;
@@ -51,13 +66,17 @@ body {
 }
 
 .navbar  {
-	width: 50em;
+	width: 360px;
+	padding: 0;
 	margin: 0 auto;
 }
 /*large screen*/
 @media screen and (min-width: 700px) {
 	.nav_item {
 		display: inline-block;
+	}
+	.contacts {
+		/* width: 30%; */
 	}
 /* 	img.background {
 	min-height:100%;
