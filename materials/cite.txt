@@ -1,0 +1,4 @@
+3. http://blog.sciencenet.cn/blog-362400-639090.html
+作者: 立委
+日期: 12/03/2012 17:40:25
+1. Zhuang, Jinfeng, et al. "Community Discovery from Social Media by Low-Rank Matrix Recovery." ACM Transactions on Intelligent Systems and Technology (TIST) 5.4 (2015): 67.
