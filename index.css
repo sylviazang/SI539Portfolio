@@ -5,17 +5,15 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover
-	max-width:100%;
 }
 
 .logo {
 	width:50%;
 	display:block;
-	margin: 0 auto;
+	margin: 15% auto 5%;
 }
 
 .nav_item {
-	
 	list-style-type: none;
 	padding:0.5em;
 	margin: 0.5em;
