@@ -1,115 +1,69 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="photo gallary">
-    <meta name="author" content="Yizz">
-    <link rel="icon" href="%%">
+  	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  	<meta name="description" content="header and footer design of Yizz's personal website">
+  	<meta name="author" content="Yize Zang">
+  	<link rel="icon" href="materials/title_logo.png">
+  	<title>Header of Yizz</title>
+  	<!-- Latest compiled and minified CSS -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <title>Photos of Yizz</title>
-
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="blueimp-gallery.min.css">
-	<link rel="stylesheet" type="text/css" href="photos.css">
+	  <!-- Optional theme -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  	<link rel="stylesheet" href="header.css">
 </head>
 
 <body>
+<nav class="navbar ">
   <div class="container-fluid">
-    <header>
-      <div class="row">
-        <div class="col-md-4">
-          <h1>
-            <a href="index.html"><img src="materials/instagram.png" height="115" width="300" alt="YIZZ"></a>
-          </h1>
-        </div>
-
-        <!-- Static navbar -->
-        <div class="col-xs-12 col-md-8">
-        <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <!-- <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">YIZZ</a>
-          </div> -->
-          <div id="navbar" class="nav nav-tabs">
-            <ul class="nav navbar-nav ">
-              <!-- <li class="active"><a href="#">HOME</a></li> -->
-              <li><a href="blogs.html">BLOGS</a></li>
-              <li><a href="projects.html">PROJECTS</a></li>
-              <li><a href="resume.html">RESUME</a></li>       
-              <li><a href="photos.html">PHOTOS</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACT <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="https://github.com/sylviazang"><img src="materials/github2.png" height="32" width="32"></a></li>
-                  <li><a href="https://www.linkedin.com/in/yize-zang-303a4b114?trk=nav_responsive_tab_profile_pic"><img src="materials/linkedin.png" height="32" width="45"></a></li>
-                  <li><a href="https://www.instagram.com/yizzzzzz/"><img src="materials/instagram.png" height="32" width="32"></a></li>
-                </ul>
-              </li>              
+    <!-- Brand and toggle get grouped for better mobile display -->
+	<div class="row">
+    <div class="col-sm-3 navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="materials/logo.png" class="img-responsive"></a>
+    </div>
+	
+	<div class="col-sm-3 navbar-collapse collapse in navbar-right" id="bs-example-navbar-collapse-1">
+	  <ul class="nav navbar-nav ">
+        <li class="active"><a href="projects.html">PROJECTS<span class="sr-only">(current)</span></a></li>
+        <li><a href="resume.html">RESUME</a></li>
+		<li><a href="photos.html">PHOTOS</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACTS <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="https://github.com/sylviazang"><img src="materials/github2.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/yize-zang-303a4b114?trk=nav_responsive_tab_profile_pic"><img src="materials/linkedin.png"></a></li>
+                <li><a href="https://www.instagram.com/yizzzzzz/"><img src="materials/instagram.png"></a></li>
             </ul>
-          </div><!--/.nav nav-tabs -->
-        </div><!--/.container-fluid -->
-        </nav>
-        </div>
-      </div>
-    </header>
+        </li>
+      </ul>
+	</div>
+	</div>
+	</div>
+</nav>
 
-    <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-controls">
-        <div class="slides"></div>
-        <h3 class="title"></h3>
-        <a class="prev">‹</a>
-        <a class="next">›</a>
-        <a class="close">×</a>
-        <a class="play-pause"></a>
-        <ol class="indicator"></ol>
-    </div>
-    
-    <div id="links">
-        <a href="materials/images/banana.jpg" title="Banana">
-            <img src="materials/images/thumbnails/banana.jpg" alt="Banana">
-        </a>
-        <a href="materials/images/apple.jpg" title="Apple">
-            <img src="materials/images/thumbnails/apple.jpg" alt="Apple">
-        </a>
-        <a href="materials/images/orange.jpg" title="Orange">
-            <img src="materials/images/thumbnails/orange.jpg" alt="Orange">
-        </a>
-    </div>
-  </div>
-
-  <script src="js/blueimp-gallery.min.js"></script>
-  <script>
-    document.getElementById('links').onclick = function (event) {
-        event = event || window.event;
-        var target = event.target || event.srcElement,
-        link = target.src ? target.parentNode : target,
-        options = {index: link, event: event},
-        links = this.getElementsByTagName('a');
-        blueimp.Gallery(links, options);
-    };
-  </script>
-  <script>
-    blueimp.Gallery(
-    document.getElementById('links').getElementsByTagName('a'),
-    {
-        container: '#blueimp-gallery-carousel',
-        carousel: true
-    }
-);
-</script>
+<hr>
+<footer>
+	<p class="pull-right">
+      <a href="#">Back to top</a>
+    </p>
+    <p>&copy;2016 All work to Yizz</p>
+</footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="bootstrap-3.3.7/assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
+</html>

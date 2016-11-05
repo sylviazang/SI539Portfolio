@@ -1,9 +1,34 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
+	margin: 0;
   padding-bottom: 40px;
 }
-
+nav {
+	margin-top: 20px;
+}
 .navbar {
-  margin-bottom: 20px;
-  background-color: none;
+  margin-bottom: 5%;
+  background-color: #fff;
+  color: #f99;
+}
+.active {
+	background-color: #DDD;
+}
+
+.dropdown-menu img{
+	height:32px;
+}
+.img-responsive {
+	width: 100%;
+}
+.navbar-toggle {
+	background-color: lightgray;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: gray;
+}
+.navbar-header img {
+	display:block;
+	margin: 0 auto;
 }
