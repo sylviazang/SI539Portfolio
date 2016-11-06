@@ -1,25 +1,29 @@
-/* Move down content because we have a fixed navbar that is 50px tall */
 body {
 	margin: 0;
-  padding-bottom: 40px;
+	padding-bottom: 40px;
 }
+
+/* header, navbar and footere  */
 nav {
-	margin-top: 20px;
+	margin-top: 10px;
 }
 .navbar {
-  margin-bottom: 5%;
+  margin: 5%;
   background-color: #fff;
   color: #f99;
 }
 .active {
 	background-color: #DDD;
 }
-
+.navbar-nav li a {
+	color: #0099CC;
+}
 .dropdown-menu img{
 	height:32px;
 }
 .img-responsive {
 	width: 100%;
+	margin-bottom:10%;
 }
 .navbar-toggle {
 	background-color: lightgray;
@@ -31,4 +35,143 @@ nav {
 .navbar-header img {
 	display:block;
 	margin: 0 auto;
+}
+
+footer {
+	margin: 0 5%;
+	color:#0099CC;
+}
+footer a {
+	color:#0099CC;
+}
+
+/* resume */
+.resume {
+	margin: 5%; 
+	
+}
+.resume img {
+	width: 2em;
+	display: inline-block; 
+	vertical-align:middle;
+}
+.resume h1 {
+	display: inline-block;
+}
+
+.resume a {
+	color: #0099CC;
+}
+
+.resume hr {
+	color:#0099CC;
+	border-width: 10px;
+	border: 1px solid #0099CC;
+}
+.resume p.org {
+	font-size: 20px;
+	
+}
+.resume p.city {
+	text-align:right;
+}
+.resume p.time {
+	text-align: right;
+}
+.resume mark{
+	background-color: #FFF;
+	color:#FF6666;
+	font-weight:bold;
+}
+/* projects */
+.projects {
+	margin: 5%;
+}
+.projects .row {
+	display:table-cell;
+	vertical-align:middle;
+}
+.project .discription {
+	background-color:#CCC;
+}
+.project img {
+	margin-bottom:3%;
+	margin-top: 5%;
+}
+.project h2{
+	font-size:24px;
+}
+
+/* photos */
+.photos {
+	margin: 10%;
+}
+.photos .photo {
+	height: 250px; 
+	width: 250px;
+	padding: 0;
+	margin: 5px;
+	overflow: hidden;
+	-webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+	border: 2px solid #0099CC;
+
+}
+.intro {
+	position:absolute;
+	bottom:0;
+	left: 0;
+	background-color: #FF6666;
+	width: 250px;
+	text-align:center;
+	padding: 0.5em;
+}
+
+.photos .photo:hover {
+	-webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    filter: grayscale(0);
+    
+}
+
+@media only screen and (min-width: 768px){
+	/* resume */
+.resume p.org {
+	font-size: 20px;
+	display: inline-block;
+	width: 65%;
+
+}
+.resume p.city {
+	display:inline-block;
+	width: 30%;
+	text-align:right;
+}
+
+.resume p.time {
+	display:inline-block;
+	width: 30%;
+	text-align: right;
+}
+.resume p.role {
+	display:inline-block;
+	width:65%;
+	
+}
+
+/* projects */
+.project {
+	height:250px;
+}
+.project .discription {
+	height:240px;
+	background-color:#CCC;
+	padding: 1%;
+}
 }

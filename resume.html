@@ -6,10 +6,10 @@
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  	<meta name="description" content="header and footer design of Yizz's personal website">
+  	<meta name="description" content="resume page of Yizz's personal website">
   	<meta name="author" content="Yize Zang">
   	<link rel="icon" href="materials/title_logo.png">
-  	<title>Header of Yizz</title>
+  	<title>Resume of Yizz</title>
   	<!-- Latest compiled and minified CSS -->
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -35,8 +35,8 @@
 	
 	<div class="col-sm-3 navbar-collapse collapse in navbar-right" id="bs-example-navbar-collapse-1">
 	  <ul class="nav navbar-nav ">
-        <li class="active"><a href="projects.html">PROJECTS<span class="sr-only">(current)</span></a></li>
-        <li><a href="resume.html">RESUME</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li class="active"><a href="resume.html">RESUME<span class="sr-only">(current)</span></a></li>
 		<li><a href="photos.html">PHOTOS</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACTS <span class="caret"></span></a>
@@ -51,20 +51,20 @@
 	</div>
 	</div>
 </nav>
-  <h1>Resume</h1>
-  <iframe><a href="materials/resume.pdf"> print </a>
-  <img src="materials/printer.png">
-  </iframe>
+<div class="resume">  
+  <h1>Resume</h1> 
+  <a class="btn" href="materials/resume.pdf"><i class="glyphicon glyphicon-print"></i></a>
+	<hr/>
   <div class="education">
   	<h2>Education</h2>
-  	<p>University of Michigan School of Information</p>
-  	<p>Ann Arbor, MI</p>
-  	<p>Master of Science in Information, Specialization in Information Analysis and Retrieval</p>
-  	<p>Apr. 2018</p>
-  	<p>Beihang University School of Economics and Management</p>
-  	<p>Beijing, China</p>
-  	<p>Bachelor of Management, Major in Management Information System, Minor in Mathematics</p>
-  	<p>Jun. 2016</p>
+  	<p class="org">University of Michigan School of Information</p>
+  	<p class="city">Ann Arbor, MI</p>
+  	<p class="role">Master of Science in Information, Specialization in Information Analysis and Retrieval</p>
+	<p class="time">Apr. 2018</p>
+  	<p class="org">Beihang University School of Economics and Management</p>
+  	<p class="city">Beijing, China</p>
+  	<p class="role">Bachelor of Management, Major in Management Information System, Minor in Mathematics</p>
+  	<p class="time">Jun. 2016</p>
 	<p>Chinese Government Scholarship (2015) and National Scholarship (2013)</p>
 
   </div>
@@ -72,18 +72,19 @@
   <div class="skills">
     <h2>Skills</h2>
     <ul>
-      <li><stront>Language</strong>: Mandarin (Native), English (Excellent)</li>
-      <li><stront>Programming Language</strong>: Proficient in Python, PHP, VBA, HTML and CSS, familiar with C and Java</li>
-      <li><stront>Software</strong>: Proficient in Microsoft Visio, Project, SPSS, SAP ERP, RationalRose, familiar with R, and Statistica</li>
-      <li><stront>Database Management</strong>: Proficient in MySQL, SQL Server, Redis, Elasticsearch and Microsoft Access</li>
+      <li><strong>Language</strong>: Mandarin (Native), English (Excellent)</li>
+      <li><strong>Programming Language</strong>: Proficient in <mark>Python, PHP, VBA, R, HTML, CSS and JavaScript</mark>, familiar with C and Java</li>
+      <li><strong>Software</strong>: Proficient in Microsoft Visio, Project, SPSS, SAP ERP, RationalRose, familiar with Statistica</li>
+      <li><strong>Database Management</strong>: Proficient in <mark>MySQL, SQL Server, Redis, Elasticsearch</mark> and Microsoft Access</li>
     </ul>
   </div>
   <hr/>
   <div class="work_exp">
     <h2>Work Experience</h2>
-    <p>IDC Consulting (Beijing) Ltd., Beijing, China</p>
-    <p>Jun. 2016 – Aug. 2016</p>
-	<p>Data Analyst Assistant Intern</p>
+    <p class="org">IDC Consulting (Beijing) Ltd.</p>
+	<p class="city">Beijing, China</p>	
+	<p class="role">Data Analyst Assistant Intern</p>
+	<p class="time">Jun. 2016 – Aug. 2016</p>
 	<ul>
 	  <li>Built a customer and respondent relationship management database in MySQL and developed front end in Microsoft Access with VBA programming, regarding to six entities and eight functions</li>
 	  <li>Used SPSS coding to transfer excel survey to SPSS template, in which, more than 6000 variables in total</li>
@@ -93,41 +94,45 @@
   <hr/>
   <div class="research_exp">
     <h2>Related Research Experience</h2>
-    <p>Research Center of Social Computing, Beihang University, Beijing, China</p>
-    <p>Jan. 2016 – Jun.2016</p>
-	<p>Undergraduate Graduation Project</p>
+    <p class="org">Research Center of Social Computing, Beihang University</p>
+	<p class="city">Beijing, China</p>	
+	<p class="role">Undergraduate Graduation Project</p>
+<p class="time">Jan. 2016 – Jun.2016</p>
 	<ul>
-	  <li>Independently completed “Personalized Hashtag Recommendation System Research Based on Weibo” research and built a hash tag recommendation model based on low-rank matrix recovery technique</li>
+	  <li>Independently completed <mark>“Personalized Hashtag Recommendation System Research Based on Weibo” </mark>research and built a hash tag recommendation model based on <mark>low-rank matrix recovery technique</mark></li>
 	  <li>Researched on content-based, collaborative filtering recommendation method and used Python to program the developed model based on Weibo tags, users and resources information to achieve personalized recommendation</li>
 	</ul>
-	<p>Gerontology Research Center, Simon Fraser University, Vancouver, Canada</p>
-	<p>Jul. 2015 – Oct. 2015</p>
-	<p>Research Intern</p>
+	<p class="org">Gerontology Research Center, Simon Fraser University</p>
+	<p class="city">Vancouver, Canada</p>
+	<p class="role">Research Intern</p>
+	<p class="time">Jul. 2015 – Oct. 2015</p>
 	<ul>
-	  <li>Engaged in “LGBT (Lesbian, Gay, Bisexual and Transgender) Future Planning Project: Improving web access, online services and web safety for end-of-life planning by LGBT older adults” project</li>
+	  <li>Engaged in <mark>“LGBT (Lesbian, Gay, Bisexual and Transgender) Future Planning Project</mark>: Improving web access, online services and web safety for end-of-life planning by LGBT older adults” project</li>
 	  <li>Analyzed Internet usage and end-of-life preparation patterns of 143 LGBT seniors across 5 cities with 231 variables, using SPSS and R</li>
 	  <li>Interviewed 5 LGBT seniors on their satisfaction with their current life and the effort they have made to pursue happiness</li>
 	</ul>
-	<p>Research Center of Social Computing, Beihang University, Beijing, China</p>
-	<p>Feb. 2014 – Jun. 2014</p>
-	<p>Research Assistant</p>
+	<p class="org">Research Center of Social Computing, Beihang University</p>
+	<p class="city">Beijing, China</p>
+	<p class="role">Research Assistant</p>
+	<p class="time">Feb. 2014 – Jun. 2014</p>
 	<ul>
-	  <li>Involved in “Financial Market Tendency Prediction Based on Sentiment” project and innovated a financial market tendency prediction model based on Supported Vector Machine model</li>
+	  <li>Involved in <mark>“Financial Market Tendency Prediction Based on Sentiment”</mark> project and innovated a financial market tendency prediction model based on <mark>Supported Vector Machine model<mark></li>
 	  <li>Tagged emotional tendencies on over 950 pieces of text data from a financial market</li>
 	  <li>Used Python to code the prediction model and researched ways to improve the accuracy of prediction from 65% to 75% by optimizing data-tag accuracy</li>
   </div>
   <hr/>
   <div class="leadership">
     <h2>Leadership Activities</h2>
-    <p>AIESEC (local committee in Beihang University), Beijing, China</p>	
-    <p>Jan. 2014 – Dec. 2014</p>
-    <p>VP Finance and Executive Board member of AIESEC BUAA</p> 
-	<p>Undergraduate Mentor Plan in Beihang University, Beijing, China</p>
-	<p>Aug. 2013 – Jul. 2014</p>
-    <p>Sophomore mentor of 6 freshmen mentees</p>
-
+    <p class="org">AIESEC (local committee in Beihang University)</p>
+	<p class="city">Beijing, China</p>	
+    <p class="role">VP Finance and Executive Board member of AIESEC BUAA</p> 
+	<p class="time">Jan. 2014 – Dec. 2014</p>
+	<p class="org">Undergraduate Mentor Plan in Beihang University</p>
+	<p class="city">Beijing, China</p>
+    <p class="role">Sophomore mentor of 6 freshmen mentees</p>
+	<p class="time">Aug. 2013 – Jul. 2014</p>
   </div>
-
+</div> 
 <hr>
 <footer>
 	<p class="pull-right">
@@ -135,7 +140,7 @@
     </p>
     <p>&copy;2016 All work to Yizz</p>
 </footer>
-  </div> <!-- /container -->
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="bootstrap-3.3.7/assets/js/vendor/jquery.min.js"><\/script>')</script>
