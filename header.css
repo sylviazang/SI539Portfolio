@@ -139,6 +139,23 @@ footer a {
     filter: grayscale(0);
     
 }
+/*lightbox*/
+.phototag{
+	display: inline-block;
+	text-decoration: none;
+	padding:1em;
+	border:0.1em solid #0099CC;
+	border-radius:1em;
+
+}
+.phototag:hover {
+	background-color: #FF6666;
+}
+.phototags {
+	text-align: center;
+	margin-top: 15%;
+	margin-bottom: 0;
+}
 
 @media only screen and (min-width: 768px){
 	/* resume */
